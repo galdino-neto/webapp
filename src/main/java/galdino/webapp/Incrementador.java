@@ -16,8 +16,8 @@ import javax.servlet.http.HttpServletResponse;
  *
  * @author Admin
  */
-@WebServlet(name = "incrementa", urlPatterns = {"/incrementa"})
-public class incrementa extends HttpServlet {
+@WebServlet(name = "Incrementador", urlPatterns = {"/incrementa"})
+public class Incrementador extends HttpServlet {
 
     /**
      * Processes requests for both HTTP <code>GET</code> and <code>POST</code>
@@ -36,10 +36,10 @@ public class incrementa extends HttpServlet {
             out.println("<!DOCTYPE html>");
             out.println("<html>");
             out.println("<head>");
-            out.println("<title>Servlet incrementa</title>");            
+            out.println("<title>Servlet Incrementador</title>");            
             out.println("</head>");
             out.println("<body>");
-            out.println("<h1>Servlet incrementa at " + request.getContextPath() + "</h1>");
+            out.println("<h1>Servlet Incrementador at " + request.getContextPath() + "</h1>");
             out.println("</body>");
             out.println("</html>");
         }

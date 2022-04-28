@@ -9,9 +9,15 @@
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <title>JSP Page</title>
+        <title>INCREMENTADOR</title>
     </head>
     <body>
-        <h1>Hello World!</h1>
+        <div align="center">
+        <h1>Incrementador Aleatorio</h1>
+        <form action="incrementa" method="post">
+            Digite um numero ao lado: <input type="number" name="numero" required/>
+            <input type="submit" value="INCREMENTAR" /> 
+        </form>
+        </div>
     </body>
 </html>
